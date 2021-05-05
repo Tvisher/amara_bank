@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Амра-Банк</title>
+    <link rel="shortcut icon" href="img/bank-logo.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preload" href="fonts/OpenSans-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="fonts/OpenSans-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <script> </script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-content__head">
+                    <div class="header-content__mobile-menu">
+                        <div class="mobile-menu__btn">
+                            <span></span>
+                        </div>
+                        <div class="mobile-navigation" id="mobile-navigation">
+                            <ul class="mobile-navigation__nav-clients">
+                                <li class="list__item"><a href="business-clients.html">Бизнесу</a></li>
+                                <li class="list__item active"><a href="private-clients.html">Частным клиентам</a></li>
+                            </ul>
+                            <ul class="mobile-navigation__nav-list">
+                                <li class="navigation__list-item">
+                                    <a href="about.html">О банке</a>
+                                </li>
+                                <li class="navigation__list-item">
+                                    <a href="#">Переводы</a>
+                                </li>
+                                <li class="navigation__list-item">
+                                    <a href="#">Карты</a>
+                                </li>
+                                <li class="navigation__list-item">
+                                    <a href="contributions.html">Вклады</a>
+                                </li>
+                                <li class="navigation__list-item">
+                                    <a href="money.html">Монеты и банкноты</a>
+                                </li>
+                                <li class="navigation__list-item">
+                                    <a href="#" class="yellow-btn">Онлайн-банк</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="index.html" class="header-content__logo">
+                        <picture>
+                            <source srcset="img/bank-logo.webp" type="image/webp"><img src="img/bank-logo.png" alt="Amra-Bank" height="42px" width="299px">
+                        </picture>
+                    </a>
+                    <ul class="header-content__nav">
+                        <li class="list__item"><a href="business-clients.html">Бизнесу</a></li>
+                        <li class="list__item active"><a href="private-clients.html">Частным клиентам</a></li>
+                    </ul>
+                    <select name="language" id="language" class="header-content__select">
+                        <option value="ru">Рус</option>
+                        <option value="en">Eng</option>
+                    </select>
+                </div>
+                <nav class="header-content__navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item">
+                            <a href="about.html">О банке</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#">Переводы</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#">Карты</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="contributions.html">Вклады</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="money.html">Монеты и банкноты</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="#" class="yellow-btn">Онлайн-банк</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="breadcrumbs" id="breadcrumbs">
+            <div class="container">
+                <ul class="breadcrumbs__list">
+                    <li class="list__item">
+                        <a href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a href="private-clients.html">
+                            Частным клиентам
+                        </a>
+                    </li>
+                    <li class="list__item active">
+                        <a href="#">
+                            Вклады
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contributions" id="contributions">
+            <div class="container">
+                <h2 class="contributions__title">
+                    Вклады
+                </h2>
+                <div class="saved__contribution">
+                    <div class="saved__pictures">
+                        <picture>
+                            <source srcset="./img/img-pig.webp" type="image/webp"><img src="./img/img-pig.png" alt="">
+                        </picture>
+                        <div class="pictures__ellipse">
+                            <ul class="ellipse-list">
+                                <li>
+                                    Ежемесячные проценты
+                                </li>
+                                <li>
+                                    Не пополняется
+                                </li>
+                                <li>
+                                    Без частичного снятия
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contribution__content">
+                        <div class="contribution__title">
+                            <h2>Вклад «Сохраняемый»</h2>
+                            <span>10%</span>
+                        </div>
+                        <table class="contribution__table">
+                            <thead>
+                                <tr>
+                                    <td>Валюта</td>
+                                    <td>Сумма</td>
+                                    <td>91-180 дней</td>
+                                    <td>181-365 дней</td>
+                                    <td>От 1 года</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>RUB</td>
+                                    <td>от 50 000 ₽</td>
+                                    <td>6%</td>
+                                    <td>8%</td>
+                                    <td>10%</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR</td>
+                                    <td>от 1 000 €</td>
+                                    <td>1%</td>
+                                    <td>2%</td>
+                                    <td>3%</td>
+                                </tr>
+                                <tr>
+                                    <td>USD</td>
+                                    <td>от 1 000 $</td>
+                                    <td>1%</td>
+                                    <td>2%</td>
+                                    <td>3%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="contribution__mobile-table">
+                            <tr>
+                                <td>Валюта</td>
+                                <td>
+                                    <select name="contribution-table-select" id="contribution-table-select">
+                                        <option value="rub">RUB</option>
+                                        <option value="eur">EUR</option>
+                                        <option value="usd">USD</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Сумма</td>
+                                <td>от 50 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>91-180 дней</td>
+                                <td>6%</td>
+                            </tr>
+                            <tr>
+                                <td>181-365 дней</td>
+                                <td>8%</td>
+                            </tr>
+                            <tr>
+                                <td>От 1 года</td>
+                                <td>10%</td>
+                            </tr>
+                        </table>
+                        <span class="contribution__footnote">*максимальная процентная ставка</span>
+                    </div>
+                </div>
+                <div class="replenishment__contribution">
+                    <div class="replenishment__pictures">
+                        <picture>
+                            <source srcset="./img/plain.webp" type="image/webp"><img src="./img/plain.png" alt="">
+                        </picture>
+                        <div class="pictures__ellipse-black">
+                            <ul class="ellipse-list">
+                                <li>
+                                    Ежемесячные проценты
+                                </li>
+                                <li>
+                                    Пополнение от 5 000₽
+                                </li>
+                                <li>
+                                    Без частичного снятия
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contribution__content">
+                        <div class="contribution__title">
+                            <h2>Вклад «Пополняемый»</h2>
+                            <span>8%</span>
+                        </div>
+                        <table class="contribution__table">
+                            <thead>
+                                <tr>
+                                    <td>Валюта</td>
+                                    <td>Сумма</td>
+                                    <td>91-180 дней</td>
+                                    <td>181-365 дней</td>
+                                    <td>От 1 года</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>RUB</td>
+                                    <td>от 15 000 ₽</td>
+                                    <td>4%</td>
+                                    <td>6%</td>
+                                    <td>8%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="contribution__mobile-table">
+                            <tr>
+                                <td>Валюта</td>
+                                <td>
+                                    RUB
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Сумма</td>
+                                <td>от 50 000 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>91-180 дней</td>
+                                <td>6%</td>
+                            </tr>
+                            <tr>
+                                <td>181-365 дней</td>
+                                <td>8%</td>
+                            </tr>
+                            <tr>
+                                <td>От 1 года</td>
+                                <td>10%</td>
+                            </tr>
+                        </table>
+                        <span class="contribution__footnote">*максимальная процентная ставка</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__connections">
+                    <div class="connection">
+                        <a href="tel:+78402233332" class="connection__phone">Тел.: +7 840 223-33-32</a>
+                        <a href="mailto:info@amra-bank.com" class="connection__email">info@amra-bank.com</a>
+                    </div>
+                    <div class="adress">
+                        p384900, Республика Абхазия,<br>
+                        Г. Сухум, ул. Лакоба-Конфедератов, 70/27
+                    </div>
+                    <div class="license">
+                        © 2014-2021, КБ «Амра-Банк» (ООО).<br>
+                        Генеральная лицензия Банка России № 2209 от 24.11.2014.<br>
+                        115114, г. Москва, ул. Летниковская, д. 2, стр. 4.
+                    </div>
+                    <div class="developers">
+                        Разработка ASAR Studio
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <ul>
+                        <li>
+                            <a href="about.html" class="footer__nav-link">
+                                О банке
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news.html" class="footer__nav-link">
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__nav-link">
+                                Переводы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contributions.html" class="footer__nav-link">
+                                Вклады
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="business-clients.html" class="footer__nav-link">
+                                Эквайринг
+                            </a>
+                        </li>
+                        <li>
+                            <a href="money.html" class="footer__nav-link">
+                                Монеты и банкноты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="locations.html" class="footer__nav-link">
+                                Офисы и банкоматы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__nav-link">
+                                Кредитование
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__socials">
+                    <a href="#" class="footer__logo">
+                        <picture>
+                            <source srcset="./img/bank-logo.webp" type="image/webp"><img src="./img/bank-logo.png" alt="logo" class="desctop-logo" width="217px" height="30px">
+                        </picture>
+                        <picture>
+                            <source srcset="./img/footer-logo.webp" type="image/webp"><img src="./img/footer-logo.png" alt="logo" class="mobile-logo" width="217px" height="30px">
+                        </picture>
+                    </a>
+                    <div class="footer__socials-wrapper">
+                        <div class="social__links">
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.501" height="21" viewBox="0 0 10.501 21">
+                                    <path id="facebook" d="M14.771,3.487h1.917V.148A24.756,24.756,0,0,0,13.895,0C11.131,0,9.237,1.739,9.237,4.934V7.875H6.187v3.733h3.05V21h3.74V11.609H15.9l.465-3.733H12.976V5.3c0-1.079.291-1.817,1.795-1.817Z" transform="translate(-6.187)" fill="#212123" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14">
+                                    <path id="youtube" d="M21.547-3.891a2.643,2.643,0,0,0-1.939-1.763C17.886-6.082,11-6.082,11-6.082s-6.886,0-8.608.412A2.694,2.694,0,0,0,.453-3.891,24.047,24.047,0,0,0,0,.918,23.958,23.958,0,0,0,.453,5.727,2.643,2.643,0,0,0,2.392,7.49c1.74.428,8.608.428,8.608.428s6.886,0,8.608-.412a2.643,2.643,0,0,0,1.939-1.762A24.055,24.055,0,0,0,22,.934,22.827,22.827,0,0,0,21.547-3.891ZM8.807,3.916v-6l5.726,3Zm0,0" transform="translate(0 6.082)" fill="#212123" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                    <path id="instagram.1" d="M10.707,21H10.5c-1.646,0-3.167-.038-4.646-.128a6.211,6.211,0,0,1-3.58-1.355A5.746,5.746,0,0,1,.341,16.4a13.813,13.813,0,0,1-.317-3.3C.013,12.336,0,11.427,0,10.5S.013,8.667.024,7.9A13.815,13.815,0,0,1,.341,4.6,5.746,5.746,0,0,1,2.272,1.485,6.211,6.211,0,0,1,5.852.13C7.331.04,8.852,0,10.5,0S13.669.04,15.148.13a6.211,6.211,0,0,1,3.58,1.355A5.745,5.745,0,0,1,20.659,4.6a13.814,13.814,0,0,1,.317,3.3c.011.767.022,1.675.024,2.6v0c0,.924-.013,1.832-.024,2.6a13.807,13.807,0,0,1-.317,3.3,5.745,5.745,0,0,1-1.931,3.117,6.211,6.211,0,0,1-3.58,1.355C13.732,20.959,12.277,21,10.707,21ZM10.5,19.36c1.619,0,3.106-.037,4.551-.125a4.52,4.52,0,0,0,2.643-.989A4.142,4.142,0,0,0,19.07,16a12.567,12.567,0,0,0,.266-2.915c.01-.762.021-1.664.024-2.578s-.013-1.817-.024-2.578a12.569,12.569,0,0,0-.266-2.915,4.142,4.142,0,0,0-1.378-2.252,4.521,4.521,0,0,0-2.643-.989c-1.444-.088-2.931-.128-4.547-.125s-3.106.037-4.551.125a4.521,4.521,0,0,0-2.643.989A4.142,4.142,0,0,0,1.93,5.008a12.569,12.569,0,0,0-.266,2.915c-.01.762-.021,1.665-.024,2.58s.013,1.814.024,2.576A12.567,12.567,0,0,0,1.93,16a4.142,4.142,0,0,0,1.378,2.252,4.521,4.521,0,0,0,2.643.989C7.4,19.323,8.883,19.364,10.5,19.36Zm-.039-3.732A5.127,5.127,0,1,1,15.586,10.5,5.133,5.133,0,0,1,10.459,15.628Zm0-8.613A3.486,3.486,0,1,0,13.945,10.5,3.49,3.49,0,0,0,10.459,7.015Zm5.7-3.281a1.23,1.23,0,1,0,1.231,1.23A1.231,1.231,0,0,0,16.16,3.734Zm0,0" transform="translate(0 -0.001)" fill="#212123" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social__telegram">
+                            <a href>
+                                Подписывайтесь на<br>
+                                нашего телеграм-бота
+                            </a>
+                            <picture>
+                                <source srcset="./img/app-qr.webp" type="image/webp"><img src="./img/app-qr.jpg" alt="qr" width="109px" height="109px">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
